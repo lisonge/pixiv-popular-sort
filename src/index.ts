@@ -2,12 +2,12 @@
  * @Date: 2021-03-14 14:15:52
  * @LastEditors: lisonge
  * @Author: lisonge
- * @LastEditTime: 2021-03-23 14:18:54
+ * @LastEditTime: 2021-03-23 15:10:38
  */
 // 此代码必须在使用 fetch 之前运行
 const constantMock = window.fetch;
 const matchSearch = (target: string) => {
-  return /\/ajax\/search\/(artworks|illustrations|manga|novels)\/(.*)/.test(
+  return /\/ajax\/search\/(artworks|illustrations|manga|novels|top)\/(.*)/.test(
     target
   );
 };
