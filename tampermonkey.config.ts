@@ -2,7 +2,7 @@
  * @Date: 2021-03-14 14:16:30
  * @LastEditors: lisonge
  * @Author: lisonge
- * @LastEditTime: 2021-03-23 14:33:54
+ * @LastEditTime: 2021-03-23 15:00:33
  */
 import { Options } from 'tampermonkey-webpack-plugin';
 
@@ -20,6 +20,7 @@ export default {
     version: '1.0.0',
     match: ['https://www.pixiv.net/*'],
     grant: null,
+    source: 'https://github.com/lisonge/pixiv-popular-sort.git',
     'run-at': 'document-start',
   },
   devServer: {

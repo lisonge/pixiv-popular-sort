@@ -2,16 +2,16 @@
  * @Date: 2021-03-14 17:01:02
  * @LastEditors: lisonge
  * @Author: lisonge
- * @LastEditTime: 2021-03-23 14:28:07
+ * @LastEditTime: 2021-03-23 15:02:10
 -->
 
 # pixiv-popular
 
 non premium menber use "Sort by popularity"
 
-install it, then **nothing to do**
+[install it](https://greasyfork.org/zh-CN/scripts/423826), then **nothing to do**
 
-just serch any word
+just search any word
 
 ## thanks
 
