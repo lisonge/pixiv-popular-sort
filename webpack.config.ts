@@ -2,7 +2,7 @@
  * @Date: 2021-03-14 14:16:13
  * @LastEditors: lisonge
  * @Author: lisonge
- * @LastEditTime: 2021-03-23 14:36:29
+ * @LastEditTime: 2021-04-09 14:57:30
  */
 
 import { Configuration } from 'webpack';
@@ -49,7 +49,7 @@ export default {
   devServer: {
     host,
     port,
-    filename: 'index.js',
+    filename: 'index.user.js',
     disableHostCheck: true,
     headers: {
       'Access-Control-Allow-Origin': '*',

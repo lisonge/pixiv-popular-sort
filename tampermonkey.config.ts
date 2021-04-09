@@ -2,7 +2,7 @@
  * @Date: 2021-03-14 14:16:30
  * @LastEditors: lisonge
  * @Author: lisonge
- * @LastEditTime: 2021-03-23 15:10:54
+ * @LastEditTime: 2021-03-24 00:42:05
  */
 import { Options } from 'tampermonkey-webpack-plugin';
 
@@ -10,7 +10,7 @@ export default {
   minAlignSpace: 4,
   header: {
     author: 'lisonge',
-    name: ['pixiv-popular-sort', ['zh', 'pixiv-热度排序']],
+    name: ['pixiv-popular-sort-hot', ['zh', 'pixiv-热度排序-hot']],
     description: [
       'non premium menber use "Sort by popularity"',
       ['zh', '让非会员也能搜索结果按热度排序'],
