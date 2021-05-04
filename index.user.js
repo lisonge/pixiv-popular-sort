@@ -10,7 +10,7 @@
 // @author            lisonge
 // @namespace         https://dev.songe.li/
 // @icon              https://www.pixiv.net/favicon.ico
-// @version           1.0.1
+// @version           1.0.2
 // @source            https://github.com/lisonge/pixiv-popular-sort.git
 // @run-at            document-start
 // ==/UserScript==
