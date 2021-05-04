@@ -2,7 +2,7 @@
  * @Date: 2021-03-14 17:01:02
  * @LastEditors: lisonge
  * @Author: lisonge
- * @LastEditTime: 2021-05-05 00:31:19
+ * @LastEditTime: 2021-05-05 01:01:11
 -->
 
 # pixiv-popular
@@ -15,16 +15,16 @@
 
 如果后端接口支持，则可以拦截任意按热度排序接口
 
-## thanks
-
-use api from <https://github.com/zhuzemin/pixiv_sort_by_popularity.git>
-
 ## bug
 
 实际使用过程中发现会员 api 接口会出现以下 bug
 
-- cloudflare 次数用完，第二天可正常使用
+- cloudflare 次数用完，北京时间 `08:00/24小时制` 次数重置，可正常使用
 
 - 返回的结果是未排序的，概率复现，后端接口问题，我无法解决
 
 - 返回的结果显示不正确的请求，概率复现，后端接口问题，我无法解决
+
+## thanks
+
+感谢此仓库 <https://github.com/zhuzemin/pixiv_sort_by_popularity.git> 提供的**高级会员api**
