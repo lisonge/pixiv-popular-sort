@@ -2,7 +2,7 @@
  * @Date: 2021-03-14 14:16:13
  * @LastEditors: lisonge
  * @Author: lisonge
- * @LastEditTime: 2021-04-09 14:57:30
+ * @LastEditTime: 2021-05-04 22:46:14
  */
 
 import { Configuration } from 'webpack';
@@ -51,6 +51,7 @@ export default {
     port,
     filename: 'index.user.js',
     disableHostCheck: true,
+    // hot:false,
     headers: {
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Headers': '*',

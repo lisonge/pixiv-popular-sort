@@ -2,7 +2,7 @@
  * @Date: 2021-03-14 14:16:30
  * @LastEditors: lisonge
  * @Author: lisonge
- * @LastEditTime: 2021-03-24 00:42:05
+ * @LastEditTime: 2021-05-05 00:32:35
  */
 import { Options } from 'tampermonkey-webpack-plugin';
 
@@ -10,9 +10,14 @@ export default {
   minAlignSpace: 4,
   header: {
     author: 'lisonge',
-    name: ['pixiv-popular-sort-hot', ['zh', 'pixiv-热度排序-hot']],
+    name: [
+      'pixiv-热度排序',
+      ['en', 'pixiv-popular-sort-hot'],
+      ['zh', 'pixiv-热度排序'],
+    ],
     description: [
-      'non premium menber use "Sort by popularity"',
+      '让非会员也能搜索结果按热度排序',
+      ['en', 'non premium menber use "Sort by popularity"'],
       ['zh', '让非会员也能搜索结果按热度排序'],
     ],
     namespace: 'https://dev.songe.li/',
