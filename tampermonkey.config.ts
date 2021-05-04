@@ -2,7 +2,7 @@
  * @Date: 2021-03-14 14:16:30
  * @LastEditors: lisonge
  * @Author: lisonge
- * @LastEditTime: 2021-05-05 00:32:35
+ * @LastEditTime: 2021-05-05 00:38:03
  */
 import { Options } from 'tampermonkey-webpack-plugin';
 
@@ -22,7 +22,7 @@ export default {
     ],
     namespace: 'https://dev.songe.li/',
     icon: 'https://www.pixiv.net/favicon.ico',
-    version: '1.0.1',
+    version: '1.0.2',
     match: ['https://www.pixiv.net/*'],
     grant: null,
     source: 'https://github.com/lisonge/pixiv-popular-sort.git',
